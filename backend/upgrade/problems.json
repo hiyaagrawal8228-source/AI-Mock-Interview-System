@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Reverse a String",
+    "description": "Write a function that takes a string as input and returns the string reversed.",
+    "function_signature": "def reverse_string(s: str) -> str:"
+  },
+  {
+    "title": "Two Sum",
+    "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution.",
+    "function_signature": "def two_sum(nums: list[int], target: int) -> list[int]:"
+  },
+  {
+    "title": "Valid Palindrome",
+    "description": "A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Return true if it is a palindrome, false otherwise.",
+    "function_signature": "def is_palindrome(s: str) -> bool:"
+  },
+  {
+    "title": "Maximum Subarray (Kadane's Algorithm)",
+    "description": "Given an integer array nums, find the subarray with the largest sum, and return its sum.",
+    "function_signature": "def max_subarray(nums: list[int]) -> int:"
+  },
+  {
+    "title": "Fibonacci Number",
+    "description": "The Fibonacci numbers form a sequence such that each number is the sum of the two preceding ones, starting from 0 and 1. Given n, return F(n). Implement both recursive and iterative solutions and discuss trade-offs.",
+    "function_signature": "def fib(n: int) -> int:"
+  },
+  {
+    "title": "Valid Brackets",
+    "description": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. An input string is valid if: open brackets must be closed by the same type of bracket, and open brackets must be closed in the correct order.",
+    "function_signature": "def is_valid(s: str) -> bool:"
+  },
+  {
+    "title": "Binary Search",
+    "description": "Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, return its index. Otherwise, return -1.",
+    "function_signature": "def binary_search(nums: list[int], target: int) -> int:"
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "description": "You are given the heads of two sorted linked lists. Merge the two lists into one sorted list and return the head of the merged linked list.",
+    "function_signature": "def merge_sorted_lists(list1: list, list2: list) -> list:"
+  },
+  {
+    "title": "Climbing Stairs",
+    "description": "You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?",
+    "function_signature": "def climb_stairs(n: int) -> int:"
+  },
+  {
+    "title": "Anagram Check",
+    "description": "Given two strings s and t, return true if t is an anagram of s, and false otherwise. An anagram is a word or phrase formed by rearranging the letters of a different word or phrase.",
+    "function_signature": "def is_anagram(s: str, t: str) -> bool:"
+  },
+  {
+    "title": "Rotate Array",
+    "description": "Given an integer array nums, rotate the array to the right by k steps, where k is non-negative. Try to come up with as many solutions as you can; there are at least three different ways to solve this problem.",
+    "function_signature": "def rotate(nums: list[int], k: int) -> list[int]:"
+  },
+  {
+    "title": "Linked List Cycle Detection",
+    "description": "Given head, the head of a linked list, determine if the linked list has a cycle in it. Use Floyd's Tortoise and Hare algorithm.",
+    "function_signature": "def has_cycle(head) -> bool:"
+  },
+  {
+    "title": "Find Duplicates",
+    "description": "Given an integer array nums containing n integers where each integer is in the range [1, n], find all the integers that appear twice in this array.",
+    "function_signature": "def find_duplicates(nums: list[int]) -> list[int]:"
+  },
+  {
+    "title": "Longest Common Prefix",
+    "description": "Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string.",
+    "function_signature": "def longest_common_prefix(strs: list[str]) -> str:"
+  },
+  {
+    "title": "Product of Array Except Self",
+    "description": "Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]. You must write an algorithm that runs in O(n) time and without using the division operation.",
+    "function_signature": "def product_except_self(nums: list[int]) -> list[int]:"
+  }
+]
